@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Step 3 Survey Form</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- 
+
+Hello Camper!
+
+Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Step 3 Survey Form</title>
+</head>
+
+<body>
+  <header>
+    <h1 id="title">Surafel Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve our website</p><br>
+  </header>
+  <main>
+    <div class="container">
+    <form id="survey-form">
+      <label for="name" id="name-label">please Enter Name</label>
+      <input id="name" type="text" required placeholder="Your Name">
+<br><br>
+      <label for="email" id="email-label">please Enter Your Email</label>
+      <input id="email" type="email" required placeholder="e.g surafel@gmail.com">
+<br><br>
+      <label for="number" id="number-label">please Enter Your Age</label>
+      <input id="number" type="number" min="5" max="100" placeholder="Age" required>
+<br><br>
+      <label for="dropdown">Hot or Cold Shower</label>
+      <select id="dropdown">
+      <option>Hot</option>
+      <option>Cold</option>
+      </select>
+<br><br>
+      <label>Vegetarian or Vegan</label>
+      <input type="radio" name="radio-group" id="vegetarian" value="0">
+      <label for="vegetarian">Vegetarian</label>
+      <input type="radio" name="radio-group" id="vegan" value="1">
+      <label for="vegan">Vegan</label>
+<br><br>
+      <label>Coffee or Tea</label>
+      <input type="checkbox" value="0" id="coffee">
+      <label for="coffee">Coffee</label>
+      <input type="checkbox" value="1" id="tea">
+      <label for="tea">Tea</label>
+<br><br><br>
+      <textarea>Please fell free to write us if you have additional comment here:</textarea>
+<br><br><br>
+      <input id="submit" type="submit">
+
+    </form>
+      </div>
+    </main>
+    </body>
+    </html>
+<!-- partial -->
+  <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
